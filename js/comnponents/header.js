@@ -5,7 +5,7 @@ class Header extends HTMLElement {
     super();
 
     this.innerHTML = `
-<header class="z-20 fixed top-0 right-0 left-0 bg-transparent text-gray-100 transition-all duration-700" id="kgf-header">
+<header class="z-30 fixed top-0 right-0 left-0 bg-transparent text-gray-100 transition-all duration-700" id="kgf-header">
   <div class="w-full flex items-center justify-end p-4 md:px-8 max-w-7xl mx-auto">
     <nav class="hidden md:flex items-center gap-3 lg:gap-6 font-medium">
       <a href="#services" class="hover:text-yellow-400">Treningi</a>

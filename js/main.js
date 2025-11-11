@@ -55,3 +55,22 @@ window.addEventListener("scroll", () => {
     header.classList.add("bg-transparent")
   }
 })
+
+new Rellax(".rellax", {
+  speed: -10,
+  center: false,
+  wrapper: null,
+  round: true,
+  vertical: true,
+  horizontal: false,
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  AOS.init({
+    once: true,
+    offset: 200,
+    delay: 50,
+    duration: 700,
+    easing: "ease-in-out",
+  });
+});

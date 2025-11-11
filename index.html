@@ -56,25 +56,39 @@
     <script src="js/aos.js"></script>
     <script src="js/main.js" type="module"></script>
     <script src="js/countUp.min.js" type="module"></script>
+    <script src="js/rellax.min.js"></script>
   </head>
 
-  <body class="">
+  <body>
     <kgf-header></kgf-header>
 
     <main class="font-sora">
       <section
-        class="relative h-screen w-full bg-[url('../img/kgf1.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 md:px-8 text-white before:content-[''] before:absolute before:inset-0 before:bg-black/70"
+        class="relative h-screen w-full flex items-center justify-center px-4 md:px-8 text-white overflow-hidden"
       >
-        <div class="pt-44 md:pt-0 relative p-6 rounded-lg text-center">
-          <div class="flex flex-col font-bold leading-none uppercase">
-            <div class="text-4xl md:text-6xl xl:text-9xl" data-aos="fade-right">
-              Katarzyna
-            </div>
-            <div class="text-xl md:text-4xl xl:text-7xl" data-aos="fade-up">Grzybowska-Franc</div>
+        <!-- Parallax background -->
+        <div
+          class="rellax absolute inset-0 bg-[url('../img/kgf1.jpg')] bg-cover bg-center bg-no-repeat"
+          data-rellax-speed="-8"
+        >
+        </div>
 
-            <div class="text-xl xl:text-2xl font-light font-outfit normal-case py-8 text-zinc-300">
+        <!-- Dark overlay -->
+        <div class="absolute inset-0 bg-black/70 z-10"></div>
+
+        <!-- Content -->
+        <div class="pt-44 md:pt-0 relative z-20 p-6 rounded-lg text-center">
+          <div class="flex flex-col font-bold leading-none uppercase">
+            <h1 class="text-5xl sm:text-6xl md:text-7xl xl:text-9xl" data-aos="fade-right">
+              Katarzyna
+            </h1>
+            <h1 class="text-2xl sm:text-4xl md:text-5xl xl:text-7xl" data-aos="fade-up">
+              Grzybowska-Franc
+            </h1>
+
+            <h3 class="text-xl xl:text-2xl font-light font-outfit normal-case py-8 text-zinc-300">
               polska tenisistka stołowa, zawodniczka kadry narodowej seniorek
-            </div>
+            </h3>
           </div>
 
           <div class="relative z-10 flex justify-center font-outfit uppercase">
@@ -86,7 +100,7 @@
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 -960 960 960"
           fill="none"
-          class="h-10 absolute bottom-4 animate-bounce"
+          class="h-10 absolute bottom-4 animate-bounce z-20"
         >
           <path
             d="M480-80 200-360l56-56 184 183v-647h80v647l184-184 56 57L480-80Z"
@@ -481,17 +495,5 @@
     </main>
 
     <wf-footer></wf-footer>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        AOS.init({
-          once: true,
-          offset: 200,
-          delay: 50,
-          duration: 700,
-          easing: "ease-in-out",
-        });
-      });
-    </script>
   </body>
 </html>
