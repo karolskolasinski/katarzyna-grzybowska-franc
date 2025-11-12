@@ -3,6 +3,7 @@
 @theme {
     --font-sans: Poppins, sans-serif;
     --font-outfit: Outfit, sans-serif;
+    --font-fira: Fira Sans, sans-serif;
     --breakpoint-xs: 30rem;
 }
 

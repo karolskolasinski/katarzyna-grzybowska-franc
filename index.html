@@ -40,7 +40,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Fira+Sans:wght@700&family=Poppins:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     >
 
@@ -62,7 +62,7 @@
   <body>
     <kgf-header></kgf-header>
 
-    <main class="font-outfit">
+    <main class="font-outfit text-xl bg-gray-100">
       <section
         class="relative h-screen w-full flex items-center justify-center px-4 md:px-8 text-white overflow-hidden"
       >
@@ -79,7 +79,7 @@
         <!-- Content -->
         <div class="pt-44 md:pt-0 relative z-20 p-6 rounded-lg text-center">
           <div class="flex flex-col font-bold leading-none uppercase">
-            <span class="text-5xl sm:text-6xl md:text-7xl xl:text-9xl" data-aos="fade-right">
+            <span class="text-5xl sm:text-6xl md:text-7xl xl:text-9xl" data-aos="fade-up">
               Katarzyna
             </span>
             <span class="text-2xl sm:text-4xl md:text-5xl xl:text-7xl" data-aos="fade-up">
@@ -92,7 +92,7 @@
           </div>
 
           <div class="relative z-10 flex justify-center font-outfit uppercase">
-            <button class="button" href="#">Zobacz więcej</button>
+            <button class="button" href="#">Trenuj ze mną!</button>
           </div>
         </div>
 
@@ -109,20 +109,26 @@
         </svg>
       </section>
 
-      <section class="bg-gray-50" id="services">
+      <section id="services" class="bg-white scroll-mt-20">
         <div class="flex flex-col gap-20 px-4 md:px-8 py-10 md:py-20 max-w-7xl mx-auto">
           <div class="self-center flex flex-col gap-4 items-center">
-            <div class="bg-purple-500 w-fit px-4 rounded-sm text-white">O mnie</div>
+            <div class="bg-purple-500 w-fit px-4 rounded-sm text-white" data-aos="fade-up">
+              O mnie
+            </div>
+
             <h1
               class="w-full text-2xl md:text-5xl font-semibold font-sans uppercase"
-              data-aos="fade-right"
+              data-aos="fade-up"
             >
-              Kariera
+              Kariera sportowa
             </h1>
           </div>
 
           <div class="flex flex-col items-center justify-end md:flex-row gap-4">
-            <div class="flex-1 text-gray-800 leading-7 p-4 w-full space-y-2" data-aos="fade-right">
+            <div
+              class="flex-1 text-gray-800 leading-relaxed p-4 w-full space-y-2"
+              data-aos="fade-up"
+            >
               <p>
                 Rozpoczęłam swoją karierę sportową w MKS Pogoń Siedlce pod kierunkiem S.
                 Dąbrowskiego. Dwukrotnie uczestniczyłam w <strong>Igrzyskach Olimpijskich</strong>
@@ -136,7 +142,7 @@
             </div>
 
             <div class="flex-1">
-              <div class="flex flex-col gap-8 tracking-tighter text-center pr-10 relative">
+              <div class="flex flex-col gap-8 tracking-tighter text-center pt-20 sm:pt-0 relative">
                 <div class="relative inline-block">
                   <div
                     class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-36 h-36 bg-purple-500 rounded-full"
@@ -155,89 +161,258 @@
             </div>
           </div>
 
-          <h3 class="text-xl font-semibold text-center" data-aos="fade-up">
-            Treningi tenisa stołowego odbywają się w Gdańsku, w hali przy ul. Meissnera. Możliwe
-            jest również prowadzenie treningów w innych miejscach, w zależności od potrzeb.
-          </h3>
-
           <div>
             <h3
-              class="pb-10 text-center w-full text-xl md:text-3xl font-black font-sans uppercase"
-              data-aos="fade-right"
+              class="pb-10 text-center w-full text-xl md:text-3xl font-semibold font-sans uppercase"
+              data-aos="fade-up"
             >
-              Doskonalenie twoich umiejętności
+              Sukcesy
             </h3>
 
-            <div class="md:grid grid-cols-2 gap-4">
-              <div
-                class="p-4"
-                data-aos="fade-right"
+            <ul class="list-disc list-inside leading-loose">
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Brązowa medalistka <strong>Mistrzostw Europy</strong> w grze pojedynczej w 2018.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Zakwalifikowanie się do drużyny narodowej na <strong>Igrzyska Olimpijskie w
+                  Londynie</strong> (2012).
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Srebrna medalistka <strong>Mistrzostw Europy Kadetek</strong> w grze drużynowej
+                (razem z Natalią Partyką i Natalią Bąk).
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Brązowa medalistka <strong>Mistrzostw Polski Juniorów</strong> w grze pojedynczej i
+                złota w grze deblowej w parze z Anetą Olendzką (Kraków 2006).
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Brązowa medalistka <strong>Mistrzostw Polski Juniorek</strong> w grze pojedynczej,
+                złota w grze podwójnej w parze z Anną Żak i złota w grze mieszanej w parze z Pawłem
+                Fertikowskim (Brzeg Dolny 2007).
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Brązowa medalistka <strong>Mistrzostw Europy Juniorów</strong> w turnieju drużynowym
+                (Bratysława 2007).
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Brązowa medalistka <strong>Mistrzostw Świata Juniorów</strong> w turnieju drużynowym
+                (razem z Natalią Partyką i Natalią Bąk) (USA 2007).
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Srebrna medalistka <strong>Młodzieżowych Mistrzostw Polski</strong> w grze
+                pojedynczej oraz złota w grze podwójnej w parze z Natalią Partyką (Ostróda 2008).
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Dwukrotna złota medalistka <strong>Mistrzostw Polski Seniorów</strong> w grze
+                pojedynczej w 2014 i 2015 roku.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Srebrna medalistka <strong>Mistrzostw Polski Seniorów</strong> w grze pojedynczej w
+                2011, 2017 i 2021 roku.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Brązowa medalistka <strong>Mistrzostw Polski Seniorów</strong> w grze pojedynczej w
+                2010, 2012, 2013 i 2016.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Sześciokrotna złota medalistka <strong>Mistrzostw Polski Seniorów</strong> w deblu w
+                parze z Natalią Partyką w 2008, 2012, 2014, 2016, 2017 i 2018.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Srebrna medalistka <strong>Mistrzostw Polski Seniorów</strong> w deblu w parze z
+                Natalią Partyką w 2011.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Złota medalistka <strong>Mistrzostw Polski Seniorów</strong> w deblu w parze z
+                Natalią Bajor w 2021.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Złota medalistka <strong>Mistrzostw Polski Seniorów</strong> w grze mieszanej w
+                parze z Pawłem Fertikowskim w 2015 roku.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Brązowa medalistka <strong>Mistrzostw Polski Seniorów</strong> w grze mieszanej w
+                parze z Pawłem Fertikowskim w 2014 roku.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Srebrna medalistka <strong>Mistrzostw Polski Seniorów</strong> w grze podwójnej w
+                parze z Martą Gołotą w 2009 roku.
+              </li>
+              <li class="marker:text-purple-500" data-aos="fade-up">
+                Brązowa medalistka <strong>Mistrzostw Polski Seniorów</strong> w grze mieszanej w
+                parze z Piotrem Chmielem w 2009 roku.
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-full">
+            <h2
+              class="text-center w-full text-xl md:text-3xl font-semibold font-sans uppercase pb-10"
+              data-aos="fade-up"
+            >
+              Galeria wideo
+            </h2>
+
+            <div class="flex flex-col gap-10 lg:flex-row w-full" data-aos="fade-up">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/wdg8UbWs5pw"
+                class="h-[52vw] max-h-[310px] w-full border border-black rounded-lg"
+                title="Katarzyna Grzybowska-Franc vs Ana Tofant [Highlights] European Table Tennis Championship Full HD"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                loading="lazy"
               >
-                <div class="skill">
-                  <img
-                    src="./img/icons/agility.png"
-                    alt="Zwinność"
-                    class="h-12 [filter:brightness(0)_saturate(100%)_invert(69%)_sepia(85%)_saturate(2098%)_hue-rotate(1deg)_brightness(101%)_contrast(101%)]"
-                  />
-                </div>
-                <h4 class="py-2 text-xl font-black font-sans uppercase">Podstawy</h4>
-                <p class="text-gray-500">
-                  Opanowanie podstaw gry to między innymi prawidłowy chwyt rakietki, ruch ręki przy
-                  uderzeniach, pozycja przy stole, praca nóg i ustawienie w trakcie gry.
-                </p>
-              </div>
+              </iframe>
 
-              <div class="p-4" data-aos="fade-right">
-                <div class="skill">
-                  <img
-                    src="./img/icons/technique.png"
-                    alt="Technika"
-                    class="h-12 [filter:brightness(0)_saturate(100%)_invert(69%)_sepia(85%)_saturate(2098%)_hue-rotate(1deg)_brightness(101%)_contrast(101%)]"
-                  />
-                </div>
-                <h4 class="py-2 text-xl font-black font-sans uppercase">Technika</h4>
-                <p class="text-gray-500">
-                  Nauczysz się współczesnych technik gry od prostych uderzeń półwolejem do bardziej
-                  zaawansowanych elementów w ataku i w obronie.
-                </p>
-              </div>
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/aUu8dxlMLQ0"
+                class="h-[52vw] max-h-[310px] w-full border border-black rounded-lg"
+                title="2023.12.07 - KTS Enea Siarkopol Tarnobrzeg  vs  MUKS Start Nadarzyn"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                loading="lazy"
+              >
+              </iframe>
+            </div>
+          </div>
 
-              <div class="p-4" data-aos="fade-right">
-                <div class="skill">
-                  <img
-                    src="./img/icons/control.png"
-                    alt="Kontrola"
-                    class="h-12 [filter:brightness(0)_saturate(100%)_invert(69%)_sepia(85%)_saturate(2098%)_hue-rotate(1deg)_brightness(101%)_contrast(101%)]"
-                  />
-                </div>
-                <h4 class="py-2 text-xl font-black font-sans uppercase">Kontrola</h4>
-                <p class="text-gray-500">
-                  Nabierzesz wprawy w uderzeniach typu top-spin, przebicie, blok, lob, flip, zbicie.
-                  Nauczysz się jak nadać piłce odpowiednią rotację.
-                </p>
-              </div>
+          <div class="w-full">
+            <h2
+              class="text-center w-full text-xl md:text-3xl font-semibold font-sans uppercase pb-10"
+              data-aos="fade-up"
+            >
+              Artykuły prasowe
+            </h2>
 
-              <div class="p-4" data-aos="fade-right">
-                <div class="skill">
-                  <img
-                    src="./img/icons/reflex.png"
-                    alt="Refleks"
-                    class="h-12 [filter:brightness(0)_saturate(100%)_invert(69%)_sepia(85%)_saturate(2098%)_hue-rotate(1deg)_brightness(101%)_contrast(101%)]"
-                  />
-                </div>
-                <h4 class="py-2 text-xl font-black font-sans uppercase">Refleks</h4>
-                <p class="text-gray-500">
-                  Poprawisz swój refleks i skuteczność dzięki różnym schematom treningowym. Praktyka
-                  czyni mistrza!
-                </p>
-              </div>
+            <div
+              class="flex flex-col justify-between items-center gap-10 lg:flex-row w-full"
+              data-aos="fade-up"
+            >
+              <a
+                href="https://przegladsportowy.onet.pl/katarzyna-grzybowska-franc"
+                rel="noopener noreferrer"
+                class="hover:opacity-80 transition"
+                title="Przegląd Sportowy"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Przeglad_Sportowy_logo.svg"
+                  alt="Przegląd Sportowy"
+                  class="h-12"
+                />
+              </a>
+
+              <a
+                href="https://sport.tvp.pl/tag?tag=katarzyna+grzybowska-franc"
+                rel="noopener noreferrer"
+                class="hover:opacity-80 transition"
+                title="TVP Sport"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/8/8e/TVP_Sport_%282021%29.svg"
+                  alt="TVP Sport"
+                  class="h-12"
+                />
+              </a>
+
+              <a
+                href="https://sportowefakty.wp.pl/tenis-stolowy/katarzyna-grzybowska"
+                title="WP Sportowe Fakty"
+                class="flex gap-2 hover:opacity-80 transition"
+              >
+                <svg
+                  fill="#176C00"
+                  viewBox="0 0 44 26"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-12"
+                >
+                  <path
+                    d="m43.589 8.2232c-0.1206-0.60465-0.2412-1.2093-0.422-1.7535-0.7236-1.8744-2.1103-3.0837-4.0398-3.4465-0.3617-0.06046-0.6632-0.12093-1.025-0.12093-0.5426-0.06047-1.0853-0.12093-1.6279-0.12093-0.5426-0.06047-1.0853-0.06046-1.5676-0.12093-0.4221-0.06046-0.8442-0.06046-1.2059-0.12093-0.4221-0.06047-0.7839-0.06047-1.2059-0.12093-0.8441-0.12093-1.8691 0.36279-2.2309 1.3907-0.1206 0.30232-0.1809 0.60465-0.1809 0.96744-0.0603 0.84651-0.1809 1.693-0.2412 2.5395-0.0602 0.90698-0.1808 1.814-0.2411 2.7209-0.0603 0.7256-0.1206 1.5116-0.1809 2.2372-0.0603 0.9675-0.1206 1.8745-0.2412 2.8419-0.0603 0.907-0.1206 1.8139-0.1809 2.7209 0 0.1814 0 0.3023-0.0603 0.4837 0 0.121-0.0603 0.1814-0.1808 0.2419-0.1206 0-0.3015-0.0605-0.3015-0.2419-0.0603-0.1209-0.0603-0.2418-0.0603-0.3627-0.3618-1.8745-0.7235-3.8093-1.0853-5.6838-0.3618-1.7535-0.6632-3.4465-1.025-5.2-0.1809-0.78604-0.3618-1.5116-0.7235-2.2372-0.5427-1.0884-1.3265-1.9349-2.3515-2.4791-1.5677-0.78605-3.1353-0.90698-4.8235-0.48373-0.9044 0.24186-1.628 0.72558-2.1706 1.4512-0.4221 0.54418-0.7236 1.0884-0.9044 1.7535-0.2412 0.72559-0.3015 1.4512-0.3618 2.1768-0.0603 0.96744-0.1809 1.9349-0.2412 2.9024-0.1206 1.2697-0.2412 2.479-0.3617 3.7488-0.0603 0.9674-0.1809 1.9953-0.2412 2.9628-0.0603 0.786-0.1206 1.6325-0.2412 2.4186 0 0.3023-0.0603 0.6046-0.0603 0.8465 0 0.1814-0.1206 0.3023-0.3015 0.3023-0.2411 0.0605-0.3617-0.0604-0.422-0.3023s-0.1206-0.4837-0.1809-0.7256c-0.1809-0.786-0.3618-1.6325-0.5426-2.4186-0.1809-0.8465-0.4221-1.6325-0.603-2.4791-0.3015-1.1488-0.5426-2.2976-0.8441-3.4465-0.2412-0.9069-0.4824-1.8744-0.7235-2.7814-0.24121-0.90698-0.48239-1.8744-0.72356-2.7814-0.18089-0.66512-0.36177-1.3302-0.48236-1.9349-0.24117-0.84651-0.66323-1.5721-1.3265-2.1768-0.78382-0.66511-1.6882-1.0884-2.7735-1.2698-1.2059-0.18139-2.3515 1e-6 -3.3765 0.72558-0.48235 0.36279-0.84412 0.78604-1.025 1.3907-0.12059 0.42326-0.12059 0.90698 0 1.3302 0.18088 0.60465 0.36177 1.2698 0.54265 1.8744 0.24118 0.72559 0.48235 1.4512 0.66324 2.2372 0.24117 0.84652 0.54264 1.7535 0.78382 2.6 0.24118 0.786 0.48235 1.5116 0.66324 2.2977 0.24117 0.7255 0.42205 1.5116 0.66323 2.2372 0.18088 0.6046 0.36177 1.2697 0.54265 1.8744 0.18088 0.7256 0.42206 1.3907 0.60294 2.1163 0.18088 0.6046 0.36176 1.2093 0.54264 1.7535 0.24118 0.7255 0.42206 1.4511 0.72353 2.1767 0.36177 0.786 0.84412 1.4512 1.5074 1.9953 1.025 0.7861 2.1706 1.2093 3.3765 1.2698 0.6632 0.0605 1.3867 0 2.05-0.0605 1.2059-0.1813 2.2912-0.4837 3.3162-1.1488 0.9647-0.6046 1.8088-1.4512 2.2911-2.5395 0.3618-0.7256 0.5427-1.5721 0.603-2.3582 0.1206-0.8465 0.1809-1.7535 0.2411-2.6 0.1206-1.1488 0.2412-2.2976 0.3618-3.4465 0.1206-0.9674 0.1809-1.8744 0.2412-2.8418 0.1206-1.0884 0.1809-2.1768 0.3015-3.2047 0-0.18139 0.0603-0.36279 0.0603-0.54418 0-0.1814 0.1205-0.30233 0.2411-0.30233 0.1809 0 0.2412 0.06047 0.3015 0.24186 0 0.06047 0 0.12093 0.0603 0.12093 0.1206 0.42326 0.1809 0.90698 0.3015 1.3302 0.3014 1.3302 0.5426 2.6 0.8441 3.9303 0.2412 1.2093 0.5426 2.3581 0.7838 3.5674 0.2412 1.1488 0.5427 2.3581 0.7838 3.507 0.1206 0.6046 0.3618 1.1488 0.6633 1.6325 0.7235 1.0884 1.6882 1.6326 2.9544 1.6931 0.6632 0.0604 1.2662 0 1.8691-0.2419 0.8441-0.2419 1.5676-0.6651 2.1706-1.2698 0.7235-0.7256 1.2059-1.6325 1.3868-2.6604 0.1205-0.5442 0.1808-1.1489 0.2411-1.6931 0.1206-1.2093 0.2412-2.3581 0.3618-3.5674 0.1206-0.9674 0.1809-1.9953 0.3015-2.9628 0.0603-0.66511 0.1205-1.3302 0.1808-2.0558 0.0603-0.42325 0.1206-0.84651 0.1206-1.3302h0.1809c1.1456 0 2.2309 0.06047 3.3765 0.06047 0.3015 0 0.5426 0 0.8441 0.06046 2.05 0.1814 1.7485 4.7163 0.1809 4.9581-0.3015 0.0605-0.603 0.0605-0.9044 0.121-0.5427 0.0604-1.025 0.0604-1.5677 0.1209-0.3617 0-0.6632 0.1814-0.8441 0.4837-0.1206 0.1209-0.2412 0.3023-0.3015 0.4837-0.3014 0.6652-0.3617 1.3303-0.1808 1.9954 0.0602 0.3023 0.1808 0.6046 0.422 0.8465s0.5427 0.3628 0.8441 0.3628c0.1809 0 0.3015-0.0605 0.4824-0.0605 0.6029-0.0604 1.2662-0.1814 1.8691-0.2418 0.4221-0.0605 0.7838-0.121 1.2059-0.2419 1.5676-0.4837 2.6529-1.5116 3.2559-3.0837 0.3014-0.8465 0.4823-1.7535 0.4823-2.6605 0.2412-0.72557 0.2412-1.4512 0.1206-2.1767z"
+                  >
+                  </path>
+                </svg>
+
+                <svg
+                  viewBox="0 0 114 18"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-7 mt-1.5"
+                >
+                  <path
+                    d="m0.30664 11.27c1.025 0.4232 2.1706 0.7255 3.6779 0.7255 1.6279 0 2.3515-0.3023 2.3515-1.2697 0-0.78607-0.48236-1.0884-1.5676-1.7535l-2.4721-1.5116c-1.0853-0.66512-1.8088-1.5116-1.8088-2.9628 0-1.9349 1.2662-2.8419 3.9794-2.8419 1.5074 0 2.4118 0.30232 3.3162 0.66511v1.814c-0.9647-0.48373-1.9897-0.66512-3.3162-0.66512-1.4471 0-2.05 0.30232-2.05 1.1488 0 0.66511 0.36176 0.96744 1.1456 1.3907l2.5926 1.5721c1.2662 0.78604 2.1706 1.5116 2.1706 3.1442 0 2.0558-1.3265 3.0837-4.3412 3.0837-1.6279 0-2.7735-0.3023-3.6176-0.6651v-1.8744h-0.060293z"
+                  >
+                  </path>
+                  <path
+                    d="m9.4111 8.2467c0-2.6605 1.628-3.8698 4.1-3.8698 2.7736 0 4.1603 1.2093 4.1603 3.8698v1.5721c0 2.4791-1.1456 3.9302-3.7382 3.9302-1.3868 0-2.2309-0.4837-2.6529-1.2093v4.5954h-1.8692v-8.8884zm6.4515 0.06047c0-1.3907-0.3618-2.1768-2.2912-2.1768-1.8691 0-2.2911 0.78605-2.2911 2.1768v1.5721c0 1.3907 0.422 2.1767 2.2911 2.1767s2.2912-0.7256 2.2912-2.1767v-1.5721z"
+                  >
+                  </path>
+                  <path
+                    d="m18.636 9.8793v-1.5721c0-2.4791 1.3265-3.9302 4.1603-3.9302 2.9545 0 4.1 1.3907 4.1 3.9302v1.5721c0 2.479-1.3264 3.9302-4.1 3.9302-2.8941-0.0605-4.1603-1.3907-4.1603-3.9302zm6.4515-1.5721c0-1.3907-0.422-2.1768-2.2912-2.1768-1.8691 0-2.2911 0.78605-2.2911 2.1768v1.5721c0 1.3907 0.422 2.1767 2.2911 2.1767 1.8692 0 2.2912-0.7256 2.2912-2.1767v-1.5721z"
+                  >
+                  </path>
+                  <path
+                    d="m29.972 13.568h-1.8692v-5.9861c0-2.0558 1.0853-3.2046 3.4368-3.2046 0.4824 0 0.7838 0.06047 1.1456 0.12093v1.7535c-0.2412-0.12093-0.6029-0.18139-1.1456-0.18139-1.2662 0-1.5676 0.54418-1.5676 1.5721v5.9256z"
+                  >
+                  </path>
+                  <path
+                    d="m32.564 4.8607 1.5676-0.30232 0.3015-2.3581h1.5073v2.3581h3.3162v1.7535h-3.2559v4.1117c0 1.2093 0.5427 1.572 1.3868 1.572s1.6882-0.1813 2.2309-0.3627v1.7534c-0.603 0.2419-1.3265 0.3628-2.2309 0.3628-1.8691 0-3.2559-0.786-3.2559-3.3255v-4.1117h-1.5676v-1.4512z"
+                  >
+                  </path>
+                  <path
+                    d="m40.342 9.8793v-1.5721c0-2.4791 1.3265-3.9302 4.1603-3.9302 2.9544 0 4.1 1.3907 4.1 3.9302v1.5721c0 2.479-1.3265 3.9302-4.1 3.9302-2.9544-0.0605-4.1603-1.3907-4.1603-3.9302zm6.3912-1.5721c0-1.3907-0.4221-2.1768-2.2912-2.1768s-2.2912 0.78605-2.2912 2.1768v1.5721c0 1.3907 0.4221 2.1767 2.2912 2.1767s2.2912-0.7256 2.2912-2.1767v-1.5721z"
+                  >
+                  </path>
+                  <path
+                    d="m51.858 11.27c0.1206 0.7256 0.3015 0.907 0.7235 0.907 0.4221 0 0.603-0.1814 0.7235-0.907l0.7236-4.8977c0.1809-1.2698 0.6632-1.7535 1.9294-1.7535 1.1456 0 1.7485 0.42326 1.9294 1.7535l0.7235 4.8977c0.1206 0.7256 0.3015 0.907 0.7236 0.907 0.422 0 0.6029-0.1814 0.7235-0.907l0.9647-6.7116h1.8691l-1.025 6.772c-0.2412 1.5117-0.7235 2.4186-2.5926 2.4186-1.628 0-2.1103-0.8465-2.2912-2.4186l-0.603-4.4139c-0.1205-0.60465-0.1808-0.78605-0.4823-0.78605s-0.3618 0.12093-0.4221 0.78605l-0.6029 4.4139c-0.2412 1.5117-0.6632 2.4186-2.2912 2.4186-1.8088 0-2.3515-0.8465-2.5926-2.4186l-1.025-6.772h1.8691l1.025 6.7116z"
+                  >
+                  </path>
+                  <path
+                    d="m70.911 9.7582h-5.7883v0.42321c0 1.3303 0.7839 1.8745 2.5927 1.8745 1.025 0 2.4117-0.2419 3.075-0.5442v1.7535c-0.8442 0.3628-2.05 0.5441-3.075 0.5441-3.0147 0-4.4618-1.0883-4.4618-3.8697v-1.5721c0-2.2977 0.9647-3.9302 4.0397-3.9302 2.4721 0 3.8588 1.2698 3.8588 3.7488-0.0603 0.36279-0.0603 1.0884-0.2411 1.5721zm-5.7883-1.5116h4.2206v-0.48372c0-1.2093-0.7838-1.814-2.1103-1.814s-2.1103 0.54419-2.1103 1.814v0.48372z"
+                  >
+                  </path>
+                  <path
+                    d="m74.348 13.568h-1.8691v-9.7349c0-1.4512 0.603-2.0558 2.05-2.0558h5.6677v1.814h-5.125c-0.4824 0-0.7236 0.18139-0.7236 0.66511v2.4186h5.125v1.814h-5.125v5.0791z"
+                  >
+                  </path>
+                  <path
+                    d="m87.854 10.847c0 1.9954-1.2058 2.9023-3.8588 2.9023-2.3514 0-3.6779-0.8465-3.6779-2.7814 0-2.0558 1.447-2.7209 3.6779-2.7209h1.9897v-0.90698c0-1.1488-0.8441-1.3907-2.1103-1.3907-1.0853 0-1.9897 0.12093-2.5926 0.36279v-1.6326c0.6632-0.24186 1.5073-0.30233 2.4721-0.30233 2.4117 0 4.0999 0.72558 4.0999 2.9628v3.507zm-1.8691-1.2093h-1.9897c-1.2059 0-1.8088 0.36278-1.8088 1.2698 0 1.0884 0.8441 1.2698 1.7485 1.2698 1.1456 0 2.05-0.1814 2.05-1.3907v-1.1489z"
+                  >
+                  </path>
+                  <path
+                    d="m89.18 0.86987h1.8691v12.698h-1.8691v-12.698zm5.4867 3.6884h2.3515l-3.1956 3.5674c-0.1809 0.18139-0.3617 0.42325-0.3617 0.66511s0.1808 0.42326 0.3617 0.60465l3.5574 4.1116h-2.3515l-2.7132-3.1442c-0.603-0.66512-0.7235-1.1488-0.7235-1.693 0-0.54418 0.1205-0.90697 0.7235-1.5721l2.3514-2.5395z"
+                  >
+                  </path>
+                  <path
+                    d="m97.019 4.8607 1.5676-0.30232 0.3015-2.3581h1.5673v2.3581h3.316v1.7535h-3.316v4.1117c0 1.2093 0.543 1.572 1.387 1.572 0.784 0 1.688-0.1813 2.231-0.3627v1.7534c-0.603 0.2419-1.327 0.3628-2.231 0.3628-1.869 0-3.2558-0.786-3.2558-3.3255v-4.1117h-1.5676v-1.4512z"
+                  >
+                  </path>
+                  <path
+                    d="m107.93 11.21c0.181 0.7861 0.422 0.907 0.965 0.907 0.422 0 0.663-0.1209 0.844-0.907l1.507-6.6512h1.869l-2.17 9.0094c-0.603 2.6-1.99 4.0511-4.522 3.9906l-0.362-1.6325c1.869 0.0605 2.593-0.9675 3.015-2.3581-0.181 0.0604-0.543 0.1209-0.844 0.1209-1.447 0-1.87-0.9675-2.171-2.2977l-1.749-6.8326h1.87l1.748 6.6512z"
+                  >
+                  </path>
+                </svg>
+              </a>
+
+              <a
+                href="https://www.pzts.pl/legendy/katarzyna-grzybowska/"
+                rel="noopener noreferrer"
+                class="hover:opacity-85 hover:text-[#bba063] transition flex items-center gap-2 uppercase font-fira"
+                title="Polski Związek Tenisa Stołowego"
+              >
+                <img
+                  src="/img/pzts.png"
+                  alt="Polski Związek Tenisa Stołowego"
+                  class="h-12"
+                />
+                Polski Związek Tenisa Stołowego
+              </a>
             </div>
           </div>
         </div>
       </section>
 
       <section
-        class="relative flex flex-col items-center px-4 md:px-8 py-10 md:py-20 gap-20 max-w-7xl mx-auto text-white"
+        class="relative flex flex-col items-center px-4 md:px-8 py-10 md:py-20 gap-20 max-w-7xl mx-auto"
         id="about"
       >
         <div class="absolute top-0 -z-10 h-full w-full">
@@ -251,13 +426,13 @@
 
         <h1
           class="text-center w-full text-2xl md:text-5xl font-black font-sans uppercase"
-          data-aos="fade-right"
+          data-aos="fade-up"
         >
           O mnie
         </h1>
 
         <div class="flex flex-col gap-10 md:grid grid-cols-2 items-center">
-          <ul class="list-disc list-inside leading-loose" data-aos="fade-right">
+          <ul class="list-disc list-inside leading-loose" data-aos="fade-up">
             <li class="marker:text-yellow-500">
               Srebrny medal w deblu na Mistrzostwach Polski Juniorów
             </li>
@@ -275,45 +450,11 @@
               Wieloletni udział w rozgrywkach Ekstraklasy i Pierwszej Ligi Tenisa Stołowego
             </li>
             <li class="marker:text-yellow-500">Uzyskanie trenera drugiej klasy tenisa stołowego</li>
-
             <li class="list-none pt-10">
-              Prywatnie mąż Katarzyny Grzybowskiej-Franc, jedynej polskiej zawodniczki, która
+              -+ Prywatnie mąż Katarzyny Grzybowskiej-Franc, jedynej polskiej zawodniczki, która
               zdobyła indywidualny medal mistrzostw Europy.
             </li>
           </ul>
-        </div>
-
-        <div class="w-full">
-          <h2
-            class="text-center w-full text-xl md:text-3xl font-black font-sans uppercase pb-10"
-            data-aos="fade-right"
-          >
-            Nagrania z rozgrywek
-          </h2>
-
-          <div class="flex flex-col gap-10 lg:flex-row w-full" data-aos="fade-up">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/p0KgnkPo45A"
-              class="h-[52vw] max-h-[310px] w-full border border-black rounded-lg"
-              title="Michał Małachowski vs Wiktor Franc | #tabletennis #openpzts #gdansk"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-              loading="lazy"
-            >
-            </iframe>
-
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/-cmTGJ6rC00"
-              class="h-[52vw] max-h-[310px] w-full border border-black rounded-lg"
-              title="Paweł Piotrowski - Wiktor Franc  0:3"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-              loading="lazy"
-            >
-            </iframe>
-          </div>
         </div>
       </section>
 
@@ -333,7 +474,7 @@
         <div class="flex flex-col gap-10 px-4 md:px-8 py-10 md:py-20 max-w-7xl mx-auto">
           <h1
             class="text-center w-full text-2xl md:text-5xl font-black font-sans uppercase"
-            data-aos="fade-right"
+            data-aos="fade-up"
           >
             Opinie
           </h1>
@@ -384,7 +525,7 @@
       >
         <h1
           class="text-center w-full text-2xl md:text-5xl font-black font-sans uppercase"
-          data-aos="fade-right"
+          data-aos="fade-up"
         >
           Kluczowe aspekty współczesnego tenisa stołowego
         </h1>
@@ -466,7 +607,7 @@
         >
           <h1
             class="text-center w-full text-2xl md:text-5xl font-black font-sans uppercase"
-            data-aos="fade-right"
+            data-aos="fade-up"
           >
             Zarezerwuj <span class="text-yellow-500">termin</span>
           </h1>

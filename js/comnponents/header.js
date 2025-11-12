@@ -26,7 +26,7 @@ class Header extends HTMLElement {
     </div>
   
     <nav class="hidden md:flex items-center gap-3 lg:gap-6 font-medium">
-      <a href="#services" class="hover:text-purple-400">Kariera</a>
+      <a href="#services" class="hover:text-purple-400">O mnie</a>
       <a href="#about" class="hover:text-purple-400">Coaching</a>
       <a href="#reviews" class="hover:text-purple-400">Opinie</a>
       <a href="#contact" class="hover:text-purple-400">Kontakt</a>
