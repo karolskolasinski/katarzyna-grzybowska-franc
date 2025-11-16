@@ -19,17 +19,17 @@ class Header extends HTMLElement {
         <div class="uppercase font-bold">
            Katarzyna      
         </div>
-        <div class="uppercase font-bold text-purple-500">
+        <div class="uppercase font-bold text-sky-500">
            Grzybowska-Franc      
         </div>
       </div>
     </div>
   
     <nav class="hidden md:flex items-center gap-3 lg:gap-6 font-medium">
-      <a href="#services" class="hover:text-purple-400">O mnie</a>
-      <a href="#about" class="hover:text-purple-400">Treningi</a>
-      <a href="#reviews" class="hover:text-purple-400">Opinie</a>
-      <a href="#contact" class="hover:text-purple-400">Kontakt</a>
+      <a href="#services" class="hover:text-sky-400">O mnie</a>
+      <a href="#about" class="hover:text-sky-400">Treningi</a>
+      <a href="#reviews" class="hover:text-sky-400">Opinie</a>
+      <a href="#contact" class="hover:text-sky-400">Kontakt</a>
     </nav>
 
     <nav class="md:hidden">

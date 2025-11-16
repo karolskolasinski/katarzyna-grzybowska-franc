@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
     const prefix = path === "index" ? "#" : "/#";
 
     this.innerHTML = `
-<footer class="bg-black w-full text-white">
+<footer class="bg-slate-950 w-full text-white">
   <div class="max-w-7xl mx-auto px-4 md:px-8 py-10 md:pt-20 md:pb-0 flex flex-col items-center">
     <div class="flex gap-4">
       <svg viewBox="0 0 396 367" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20">
@@ -22,7 +22,7 @@ class Footer extends HTMLElement {
           <div class="uppercase font-bold">
              Katarzyna
           </div>
-          <div class="uppercase font-bold text-purple-500">
+          <div class="uppercase font-bold text-sky-500">
              Grzybowska-Franc      
           </div>
         </div>
