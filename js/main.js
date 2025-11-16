@@ -65,6 +65,15 @@ new Rellax(".rellax", {
   horizontal: false,
 });
 
+new Rellax('.rellax', {
+  speed: -10,
+  center: false,
+  wrapper: '.rellax-wrapper',
+  round: true,
+  vertical: true,
+  horizontal: false,
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   AOS.init({
     once: true,
