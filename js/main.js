@@ -58,20 +58,11 @@ window.addEventListener("scroll", () => {
 
 new Rellax(".rellax", {
   speed: -10,
-  center: false,
-  wrapper: null,
-  round: true,
-  vertical: true,
-  horizontal: false,
 });
 
-new Rellax('.rellax', {
+new Rellax('.rellax-2', {
   speed: -10,
-  center: false,
   wrapper: '.rellax-wrapper',
-  round: true,
-  vertical: true,
-  horizontal: false,
 });
 
 document.addEventListener("DOMContentLoaded", () => {
