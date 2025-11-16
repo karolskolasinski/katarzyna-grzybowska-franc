@@ -56,14 +56,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-new Rellax('.rellax', {
-  speed: -10
-});
-
-// new Rellax('.rellax-2', {
-//   speed: -10,
-// });
-
+new Rellax('.rellax', { speed: -10 });
 
 document.addEventListener("DOMContentLoaded", () => {
   AOS.init({

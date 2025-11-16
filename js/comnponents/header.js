@@ -87,4 +87,4 @@ class Header extends HTMLElement {
   }
 }
 
-customElements.define("kgf-header", Header);
+customElements.define("x-header", Header);
