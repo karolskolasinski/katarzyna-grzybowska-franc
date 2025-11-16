@@ -45,25 +45,25 @@ window.onload = function() {
   countUp.start();
 };
 
-const header = document.getElementById("kgf-header")
+const header = document.getElementById("kgf-header");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 10) {
-    header.classList.remove("bg-transparent")
-    header.classList.add("bg-black")
+    header.classList.remove("bg-transparent");
+    header.classList.add("bg-black");
   } else {
-    header.classList.remove("bg-black")
-    header.classList.add("bg-transparent")
+    header.classList.remove("bg-black");
+    header.classList.add("bg-transparent");
   }
-})
-
-new Rellax(".rellax", {
-  speed: -10,
 });
 
-new Rellax('.rellax-2', {
-  speed: -10,
-  wrapper: '.rellax-wrapper',
+new Rellax('.rellax', {
+  speed: -10
 });
+
+// new Rellax('.rellax-2', {
+//   speed: -10,
+// });
+
 
 document.addEventListener("DOMContentLoaded", () => {
   AOS.init({
@@ -71,6 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
     offset: 200,
     delay: 50,
     duration: 700,
-    easing: "ease-in-out",
+    easing: "ease-in-out"
   });
 });
