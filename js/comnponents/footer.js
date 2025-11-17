@@ -28,7 +28,7 @@ class Footer extends HTMLElement {
         </div>
         
         <span class="text-xs">
-          treningi tenisa stołowego
+          - nigdy nie odpuszczaj!
         </span>
       </div>      
     </div>
