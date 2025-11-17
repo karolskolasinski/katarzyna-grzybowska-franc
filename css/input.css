@@ -22,11 +22,3 @@
 .button:hover::after {
     @apply left-[150%];
 }
-
-input, textarea {
-    @apply border rounded-lg px-4 py-2 text-black;
-}
-
-label {
-    @apply flex flex-col;
-}
