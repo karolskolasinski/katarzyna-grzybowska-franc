@@ -49,9 +49,9 @@ const header = document.getElementById("kgf-header");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 10) {
     header.classList.remove("bg-transparent");
-    header.classList.add("bg-slate-950");
+    header.classList.add("bg-black");
   } else {
-    header.classList.remove("bg-slate-950");
+    header.classList.remove("bg-black");
     header.classList.add("bg-transparent");
   }
 });

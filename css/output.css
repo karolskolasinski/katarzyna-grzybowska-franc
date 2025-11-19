@@ -31,6 +31,8 @@
     --container-7xl: 80rem;
     --text-xs: 0.75rem;
     --text-xs--line-height: calc(1 / 0.75);
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
     --text-xl: 1.25rem;
@@ -653,6 +655,10 @@
   .font-sans {
     font-family: var(--font-sans);
   }
+  .\!text-sm {
+    font-size: var(--text-sm) !important;
+    line-height: var(--tw-leading, var(--text-sm--line-height)) !important;
+  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -668,6 +674,10 @@
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
   }
   .text-xl {
     font-size: var(--text-xl);
@@ -1016,9 +1026,25 @@
       display: none;
     }
   }
+  .xs\:h-20 {
+    @media (width >= 30rem) {
+      height: calc(var(--spacing) * 20);
+    }
+  }
+  .xs\:w-20 {
+    @media (width >= 30rem) {
+      width: calc(var(--spacing) * 20);
+    }
+  }
   .xs\:w-fit {
     @media (width >= 30rem) {
       width: fit-content;
+    }
+  }
+  .xs\:text-2xl {
+    @media (width >= 30rem) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
   }
   .xs\:text-\[2rem\] {
@@ -1029,6 +1055,12 @@
   .sm\:bg-\[length\:180\%_auto\] {
     @media (width >= 40rem) {
       background-size: 180% auto;
+    }
+  }
+  .sm\:text-2xl {
+    @media (width >= 40rem) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
   }
   .sm\:text-4xl {
@@ -1081,6 +1113,11 @@
   .md\:gap-10 {
     @media (width >= 48rem) {
       gap: calc(var(--spacing) * 10);
+    }
+  }
+  .md\:gap-12 {
+    @media (width >= 48rem) {
+      gap: calc(var(--spacing) * 12);
     }
   }
   .md\:gap-20 {
