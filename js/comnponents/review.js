@@ -5,7 +5,7 @@ class Review extends HTMLElement {
     super();
     const content = this.getAttribute("data-content");
     const name = this.getAttribute("data-name");
-    const position = this.getAttribute("data-position");
+    const city = this.getAttribute("data-city");
 
     const star = `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="min-w-7 h-7 fill-amber-300">
@@ -24,11 +24,11 @@ ${content}
 <div class="pt-4 flex gap-4 items-center">
   <div class="flex flex-col">
     <strong>${name}</strong>
-    <i>${position}</i>
+    <i class="text-gray-400">${city}</i>
   </div>
 </div>
 `;
   }
 }
 
-customElements.define("wf-review", Review);
+customElements.define("x-review", Review);

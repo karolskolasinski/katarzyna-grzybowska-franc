@@ -603,7 +603,7 @@
       >
         <!-- Parallax background -->
         <div
-          class="rellax absolute top-[-180%] w-full h-[350%] bg-[url('../img/kgf3.jpg')] lg:bg-[url('../img/kgf2.jpg')] bg-top-left bg-no-repeat bg-[length:240%_auto] sm:bg-[length:180%_auto] md:bg-[length:165%_auto] lg:bg-[length:150%_auto] xl:bg-[length:100%_auto]"
+          class="rellax absolute top-[-180%] xl:top-[-190%] w-full h-[350%] bg-[url('../img/kgf3.jpg')] lg:bg-[url('../img/kgf2.jpg')] bg-top-left bg-no-repeat bg-[length:240%_auto] sm:bg-[length:180%_auto] md:bg-[length:165%_auto] lg:bg-[length:150%_auto] xl:bg-[length:100%_auto]"
           data-rellax-percentage="0"
         >
         </div>
@@ -621,26 +621,14 @@
         </div>
       </section>
 
-      <section
-        class="relative bg-white"
-        id="reviews"
-      >
-        <div class="absolute top-0 -z-10 h-full w-full bg-white">
-          <div class="relative h-full w-full bg-white">
-            <div
-              class="absolute h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]"
-            >
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col gap-10 px-4 md:px-8 py-10 md:py-20 max-w-7xl mx-auto">
+      <section class="relative bg-white" id="reviews">
+        <div class="flex flex-col gap-10 md:gap-20 px-4 md:px-8 py-10 md:py-20 max-w-7xl mx-auto">
           <div class="self-center flex flex-col gap-4 items-center">
             <div class="bg-sky-500 w-fit px-4 rounded-sm text-white" data-aos="fade-up">
               Opinie
             </div>
             <h1
-              class="w-full text-2xl md:text-5xl font-semibold font-sans uppercase"
+              class="w-full text-4xl md:text-5xl font-semibold font-sans text-center leading-12"
               data-aos="fade-up"
             >
               Co mówią moi podopieczni
@@ -648,62 +636,62 @@
           </div>
 
           <div class="px-4 flex flex-col gap-10 items-center lg:grid grid-cols-2">
-            <wf-review
+            <x-review
               data-content="„Katarzyna to nie tylko utalentowana zawodniczka, ale również doskonała trenerka. Potrafi przekazać swoją wiedzę w bardzo przystępny sposób. Po każdej sesji czuję, że moje uderzenia są bardziej pewne, a gra bardziej przemyślana. Polecam każdemu, kto chce się rozwijać!”"
               data-name="Marta"
-              data-position="Gdańsk"
+              data-city="Gdańsk"
               class="h-full p-4"
               data-aos="fade-up"
             >
-            </wf-review>
+            </x-review>
 
-            <wf-review
+            <x-review
               data-content="„Kasia prowadzi treningi w taki sposób, że nawet trudniejsze elementy techniczne stają się zrozumiałe i łatwe do przećwiczenia. Bardzo cenię jej podejście — konkretne, skupione na szczegółach, ale jednocześnie pełne spokoju. Po kilku tygodniach zauważyłem ogromną poprawę w kontroli piłeczki.”"
               data-name="Piotr"
-              data-position="Gdańsk"
+              data-city="Gdańsk"
               class="h-full p-4"
               data-aos="fade-up"
             >
-            </wf-review>
+            </x-review>
 
-            <wf-review
+            <x-review
               data-content="„Świetna trenerka z ogromną wiedzą. Każdy trening jest przemyślany i dopasowany do mojego stylu gry. Kasia potrafi szybko wychwycić błędy i podpowiedzieć proste poprawki, które od razu dają efekt. Widać, że zależy jej na realnym rozwoju zawodnika.”"
               data-name="Justyna"
-              data-position="Gdańsk"
+              data-city="Gdańsk"
               class="h-full p-4"
               data-aos="fade-up"
             >
-            </wf-review>
+            </x-review>
 
-            <wf-review
+            <x-review
               data-content="„Na treningach panuje świetna atmosfera, ale tempo i poziom są naprawdę solidne. Kasia ma dar tłumaczenia i niesamowitą cierpliwość. Czuję, że krok po kroku buduję pewność siebie przy stole, a moje uderzenia stały się dużo bardziej precyzyjne.”"
               data-name="Natalia"
-              data-position="Gdynia"
+              data-city="Gdynia"
               class="h-full p-4"
               data-aos="fade-up"
             >
-            </wf-review>
+            </x-review>
           </div>
         </div>
       </section>
 
-      <section class="bg-gray-50" id="contact">
+      <section class="bg-gray-50 pb-10 md:pb-0" id="contact">
         <div
-          class="flex flex-col items-center gap-10 px-4 md:px-8 py-10 md:py-20 max-w-7xl mx-auto"
+          class="flex flex-col items-center gap-10 md:gap-20 px-4 md:px-8 py-10 md:py-20 max-w-7xl mx-auto"
         >
           <div class="self-center flex flex-col gap-4 items-center">
             <div class="bg-sky-500 w-fit px-4 rounded-sm text-white" data-aos="fade-up">
               Kontakt
             </div>
             <h1
-              class="w-full text-2xl md:text-5xl font-semibold font-sans uppercase"
+              class="w-full text-4xl md:text-5xl font-semibold font-sans text-center leading-12"
               data-aos="fade-up"
             >
               Umów się na trening
             </h1>
           </div>
 
-          <p class="text-gray-800 leading-7" data-aos="fade-up">
+          <p class="text-gray-800 leading-7 text-center" data-aos="fade-up">
             Aby ustalić dogodny termin, skontaktuj się ze mną korzystając z poniższych informacji.
           </p>
 
@@ -719,15 +707,17 @@
 
             <div class="flex gap-2">
               <img src="img/icons/marker.png" alt="telefon" class="h-6 invert">
-              <span>
-                Janusza Meissnera 1, 80-462 Gdańsk
-              </span>
+              <div>
+                <span>Janusza Meissnera 1, </span>
+                <br class="xs:hidden">
+                <span>80-462 Gdańsk</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <wf-footer></wf-footer>
+    <x-footer></x-footer>
   </body>
 </html>

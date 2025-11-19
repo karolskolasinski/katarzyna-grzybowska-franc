@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
 
     this.innerHTML = `
 <footer class="bg-slate-950 w-full text-white">
-  <div class="max-w-7xl mx-auto px-4 md:px-8 py-10 md:pt-20 md:pb-0 flex flex-col items-center">
+  <div class="max-w-7xl mx-auto px-4 md:px-8 pt-20 pb-5 flex flex-col items-center gap-10">
     <div class="flex gap-4">
       <svg viewBox="0 0 396 367" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20">
         <path
@@ -33,9 +33,7 @@ class Footer extends HTMLElement {
       </div>      
     </div>
       
-      
-    
-    <div class="flex gap-8 md:gap-10 pb-4 pt-10">
+    <div class="flex gap-8 md:gap-10">
       <a href="https://www.facebook.com/kasiagrzybowskafranc">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="min-w-8 h-8 fill-white hover:fill-[#0866ff] transition-colors duration-200">
           <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -51,7 +49,7 @@ class Footer extends HTMLElement {
       </a>
     </div>
 
-    <small class="py-4 text-center block">
+    <small class="text-center block">
       © 2026 - Wszelkie prawa zastrzeżone.
     </small>
   </div>
@@ -60,4 +58,4 @@ class Footer extends HTMLElement {
   }
 }
 
-customElements.define("wf-footer", Footer);
+customElements.define("x-footer", Footer);
