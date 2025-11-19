@@ -26,8 +26,8 @@ class Header extends HTMLElement {
     </div>
   
     <nav class="hidden md:flex items-center gap-3 lg:gap-6 font-medium">
-      <a href="#services" class="hover:text-sky-400">O mnie</a>
-      <a href="#about" class="hover:text-sky-400">Treningi</a>
+      <a href="#about" class="hover:text-sky-400">O mnie</a>
+      <a href="#services" class="hover:text-sky-400">Treningi</a>
       <a href="#reviews" class="hover:text-sky-400">Opinie</a>
       <a href="#contact" class="hover:text-sky-400">Kontakt</a>
     </nav>
@@ -70,11 +70,11 @@ class Header extends HTMLElement {
           </li>
 
           <li class="pt-4 md:gap-12 text-xl sm:text-2xl font-semibold">
-            <a href="#services" class="hover:text-yellow-400">Treningi</a>
+            <a href="#about" class="hover:text-yellow-400">O mnie</a>
           </li>
           
           <li class="md:gap-12 text-xl sm:text-2xl font-semibold">
-            <a href="#about" class="hover:text-yellow-400">O mnie</a>
+            <a href="#services" class="hover:text-yellow-400">Treningi</a>
           </li>
           
           <li class="md:gap-12 text-xl sm:text-2xl font-semibold">
