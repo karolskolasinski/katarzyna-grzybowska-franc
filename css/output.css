@@ -765,6 +765,9 @@
   .underline {
     text-decoration-line: underline;
   }
+  .decoration-0 {
+    text-decoration-thickness: 0px;
+  }
   .opacity-0 {
     opacity: 0%;
   }
