@@ -1,6 +1,6 @@
-import "./comnponents/header.js";
-import "./comnponents/footer.js";
-import "./comnponents/review.js";
+import "./components/header.js";
+import "./components/footer.js";
+import "./components/review.js";
 import { CountUp } from './countUp.min.js';
 
 document.addEventListener("DOMContentLoaded", () => {
