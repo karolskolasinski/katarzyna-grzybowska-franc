@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     const prefix = path === "index" ? "#" : "/#";
 
     this.innerHTML = `
-<header class="z-30 fixed top-0 right-0 left-0 ${path === 'products' ? 'bg-black' : 'bg-transparent'} text-gray-100 transition-all duration-700" id="kgf-header">
+<header class="z-30 fixed top-0 right-0 left-0 ${path === 'products' ? 'bg-black' : 'bg-transparent'} text-gray-100 transition-all duration-700" id="x-header">
   <div class="w-full flex items-center justify-between p-4 md:px-8 max-w-7xl mx-auto">
     <a href=${prefix} class="flex gap-4">
       <svg viewBox="0 0 396 367" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-12 h-12">

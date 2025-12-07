@@ -1,12 +1,12 @@
 import "./components/header.js";
 import "./components/footer.js";
 import "./components/review.js";
-import { CountUp } from './countUp.min.js';
+import { CountUp } from "./countUp.min.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const hamburgerCheckbox = document.getElementById("hamburger");
   const menuItems = document.querySelectorAll(
-    "#hamburger ~ ul a, #hamburger ~ ul button, #hamburger ~ ul li > a"
+    "#hamburger ~ ul a, #hamburger ~ ul button, #hamburger ~ ul li > a",
   );
 
   menuItems.forEach((item) => {
@@ -23,7 +23,7 @@ document.addEventListener("mousemove", () => {
   flag = true;
 });
 
-const phoneEncoded = "NjA2NDA0MDYx";
+const phoneEncoded = "NjY4ODM5ODMz";
 const phoneDecoded = window.atob(phoneEncoded);
 const phone = document.querySelector("#phone");
 phone.addEventListener("click", () => {
@@ -37,15 +37,15 @@ phone.addEventListener("click", () => {
   }
 });
 
-window.onload = function() {
+window.onload = function () {
   const countUp = new CountUp("count-up", 25, {
     enableScrollSpy: true,
-    startVal: 1
+    startVal: 1,
   });
   countUp.start();
 };
 
-const header = document.getElementById("kgf-header");
+const header = document.getElementById("x-header");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 10) {
     header.classList.remove("bg-transparent");
@@ -56,7 +56,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-new Rellax('.rellax', { speed: -10 });
+new Rellax(".rellax", { speed: -10 });
 
 document.addEventListener("DOMContentLoaded", () => {
   AOS.init({
@@ -64,6 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
     offset: 200,
     delay: 50,
     duration: 700,
-    easing: "ease-in-out"
+    easing: "ease-in-out",
   });
 });
