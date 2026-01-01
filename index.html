@@ -50,11 +50,13 @@
 
     <link rel="stylesheet" href="css/output.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/lite-yt-embed.css" />
 
     <script src="js/aos.js"></script>
     <script src="js/countUp.min.js" type="module"></script>
     <script src="js/rellax.min.js"></script>
     <script src="js/main.js" type="module"></script>
+    <script src="js/lite-yt-embed.js"></script>
   </head>
 
   <body>
@@ -261,27 +263,19 @@
             </h2>
 
             <div class="flex flex-col gap-10 lg:flex-row w-full" data-aos="fade-up">
-              <iframe
-                src="https://www.youtube-nocookie.com/embed/wdg8UbWs5pw"
+              <lite-youtube
+                videoid="wdg8UbWs5pw"
+                playlabel="Katarzyna Grzybowska-Franc vs Ana Tofant [Highlights] European Table Tennis Championship Full HD"
                 class="h-[52vw] max-h-[310px] w-full border border-black rounded-lg"
-                title="Katarzyna Grzybowska-Franc vs Ana Tofant [Highlights] European Table Tennis Championship Full HD"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-                loading="lazy"
               >
-              </iframe>
+              </lite-youtube>
 
-              <iframe
-                src="https://www.youtube-nocookie.com/embed/aUu8dxlMLQ0"
+              <lite-youtube
+                videoid="aUu8dxlMLQ0"
+                playlabel="2023.12.07 - KTS Enea Siarkopol Tarnobrzeg  vs  MUKS Start Nadarzyn"
                 class="h-[52vw] max-h-[310px] w-full border border-black rounded-lg"
-                title="2023.12.07 - KTS Enea Siarkopol Tarnobrzeg  vs  MUKS Start Nadarzyn"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-                loading="lazy"
               >
-              </iframe>
+              </lite-youtube>
             </div>
           </div>
 
@@ -343,7 +337,7 @@
               >
                 <img
                   src="./img/pzts.webp"
-                  alt="Polski Związek Tenisa Stołowego"
+                  alt="Polski Związek Tenisa Stołowego w grze od 1931 roku"
                   class="h-12"
                 />
                 Polski Związek Tenisa Stołowego

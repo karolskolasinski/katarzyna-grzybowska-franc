@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.17",
+    "lite-youtube-embed": "^0.3.4",
     "rellax": "^1.12.1"
   }
 }
