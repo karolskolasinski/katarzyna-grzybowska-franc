@@ -5,10 +5,11 @@ class Header extends HTMLElement {
     super();
     const path = this.getAttribute("data-path");
     const prefix = path === "index" ? "#" : "/#";
+    const bgClass = path === "products" ? "bg-black" : "bg-transparent";
 
     this.innerHTML = `
-<header class="z-30 fixed top-0 right-0 left-0 ${path === 'products' ? 'bg-black' : 'bg-transparent'} text-gray-100 transition-all duration-700" id="x-header">
-  <div class="w-full flex items-center justify-between p-4 md:px-8 max-w-7xl mx-auto">
+<header class="z-30 fixed top-0 right-0 left-0 ${bgClass} text-gray-100 transition-all duration-700" id="x-header">
+  <div class="w-full flex items-center justify-between p-4 md:px-8 max-w-7xl mx-auto"> 
     <a href=${prefix} class="flex gap-4">
       <svg viewBox="0 0 396 367" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-12 h-12">
         <path
@@ -44,6 +45,7 @@ class Header extends HTMLElement {
         />
         <label
           for="hamburger"
+          aria-label="Toggle menu"
           class="absolute top-0 right-0 w-[26px] h-[26px] z-10 flex items-center justify-center cursor-pointer before:absolute before:w-full before:h-[2px] before:bg-gray-100 before:-translate-y-[8px] before:transition-all after:absolute after:w-full after:h-[2px] after:bg-gray-100 after:translate-y-[8px] after:transition-all peer-checked:rotate-45 peer-checked:before:translate-y-0 peer-checked:before:rotate-0 peer-checked:after:translate-y-0 peer-checked:after:rotate-90 transition-transform duration-300"
         >
         </label>
@@ -85,7 +87,7 @@ class Header extends HTMLElement {
           </li>
           
           <li class="md:gap-12 text-xl sm:text-2xl font-semibold">
-            <a href="/products" class="hover:text-sky-400">Produkty</a>
+            <a href="/products?ref=mobile" class="hover:text-sky-400">Produkty</a>
           </li>
           
           <li class="w-full flex justify-center">
