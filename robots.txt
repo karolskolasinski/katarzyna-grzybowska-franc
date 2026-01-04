@@ -1,2 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /js/
+Disallow: /css/
+Sitemap: https://pingpong.gda.pl/sitemap.xml
